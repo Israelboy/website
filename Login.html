@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <style>
+        nav {
+            padding: 30px;
+            background-color: rgb(135, 245, 144);
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: skyblue;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            float: right;
+        }
+
+        .link {
+            border: 0.5px solid green;
+            border-radius: 7px;
+            text-decoration: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-right: 10px;
+            padding: 5px;
+            background-color: green;
+            color: white;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        input[type=email],
+        select,
+        input[type=password] {
+            width: 400px;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 400px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=button] {
+            width: 400px;
+            background-color: #ffffff;
+            color: blue;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover, .link:hover {
+            background-color: #45a049;
+        }
+
+        #div {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            opacity: 0.3;
+        }
+
+        .fm {
+            padding: 40px;
+            border: 1px solid;
+            border-radius: 5px;
+            margin: 50px;
+            margin-left: 550px;
+            margin-right: 570px;
+            border-color: black;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(25, 25, 105);
+        }
+
+        footer {
+            text-align: center;
+            background-color: black;
+            opacity: 1.0;
+            color: wheat;
+            padding: 30px;
+            
+        }
+        .social{
+            text-decoration: none;
+            color: wheat;
+        }
+        .lw{
+            text-decoration: none;
+            background-color: blue;
+            padding: 10px;
+            padding-left: 185px;
+            padding-right: 150px;
+            border-radius: 5px;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <div>
+                    <ul>
+                        <li class="active"><a href="About_Me.html" target="_blank" class="link">About Me</a></li>
+                        <li><a href="Contact_Me.html" target="_blank" class="link">Contact</a></li>
+                        <li><a href="Register.html" target="_blank" class="link">Sign Up</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Login to your dashboard</h1>
+        <div id=".div">
+            <form action="Contact_Me.html" class="fm">
+                <label for="email">Enter email</label><br>
+                <input type="email" name="email" id="login_email" placeholder="Email" required><br>
+
+                <label for="password">Password</label><br>
+                <input type="password" name="password" id="login_password" placeholder="Password" required><br>
+
+                <label for="remembrance">
+                    <input type="checkbox" name="remember" id="remember">Remember Me
+                </label>
+
+                <input type="submit" value="Login"><br>
+
+                <a href="#" style="margin: 135px;">Forgot Password</a>
+                <hr style="margin-top:10px;">
+
+                <h3 style="text-align: center;">Login with:</h3>
+                <a href="https://www.facebook.com" class="lw">Facebook</a><br>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h2>You can follow me on: </h2>
+        <p><a href="https://www.instagram.com/youngsterpsisrael/" class="social">Instagram</a></p>
+        <p><a href="https://www.facebook.com/olajideisrael.abimbola" class="social">Facebook</a></p>
+        <p><a href="https://www.whatsapp.com/biz" class="social">WhatsApp</a></p>
+        <p><a href="https://www.linkedin.com/in/abimbola-israel-784468216" class="social">LinkedIn</a></p>
+        <p><a href="mailto:youngsterpsisrael01@gmail.com" class="social">youngsterpsisrael01@gmail.com</a></p>
+    </footer>
+</body>
+
+</html>
